@@ -5,4 +5,6 @@
 长按左键可以拖动,左键双击可以放大,鼠标滑轮可以放大缩小<br>
 通过鼠标右键单击初始化节点<br>
 [实例链接](https://lhmdanchaofan.github.io/ChineseJadeKnowledgeGraph/test.html)<br>
+
+完整效果展示：
 <img src="https://github.com/LHMdanchaofan/Chinese-Jade-Knowledge-Graph/blob/master/kg.PNG" width="950" height="800" alt="图片加载失败"/>
