@@ -56,10 +56,11 @@
         hideEdgesOnMove: true,			
       }
     });
+	//力导向图的运行时间
     s.startForceAtlas2({worker: true, barnesHutOptimize: false});
     setTimeout(function () { 
       s.stopForceAtlas2();
-    }, 1000);		 
+    }, 500);		 
     s.bind('clickNode', function(a) {	 
 		filter = new sigma.plugins.filter(s);	  
 	    neighborhood = a.target.graph.neighborhood(a.data.node.id);
