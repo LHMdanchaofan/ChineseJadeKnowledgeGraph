@@ -59,7 +59,7 @@
     s.startForceAtlas2({worker: true, barnesHutOptimize: false});
     setTimeout(function () { 
       s.stopForceAtlas2();
-    }, 4000);		 
+    }, 1000);		 
     s.bind('clickNode', function(a) {	 
 		filter = new sigma.plugins.filter(s);	  
 	    neighborhood = a.target.graph.neighborhood(a.data.node.id);
